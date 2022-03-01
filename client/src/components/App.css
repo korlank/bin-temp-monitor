@@ -1,0 +1,174 @@
+body{
+  margin: 0;
+}
+
+.App{
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-header {
+  background-color: #12ec12;
+  height: 60px;
+}
+
+h3{
+  margin-top: 0;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.main{
+  background-image: url('../images/bin2.jpg');
+  background-size: 400px 581px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  margin-top: 6%;
+}
+
+:root{
+--first1-color: #12ec12 0px;
+--second1-color: #ffff00 100px;
+--third1-color:#ff0606 125px;
+--forth1-color: #ffff00 150px;
+--fifth1-color:#12ec12 225px;
+--first2-color: #12ec12 0px;
+--second2-color: #ffff00 80px;
+--third2-color:#ff0606 100px;
+--forth2-color: #ffff00 175px;
+--fifth2-color:#12ec12 225px;
+--first3-color: #12ec12 0px;
+--second3-color: #ffff00 30px;
+--third3-color:#ff0606 215px;
+--forth3-color: #ffff00 220px;
+--fifth3-color:#12ec12 0px
+}
+
+.gradient1 {
+  width: 250px;
+  height: 120px;
+  background-image: linear-gradient(90deg, var(--first1-color), var(--second1-color), var(--third1-color), var(--forth1-color) , var(--fifth1-color) );
+  margin: 0 auto;
+}
+
+.gradient2 {
+  width: 250px;
+  height: 120px;
+  background-image: linear-gradient(90deg, var(--first2-color), var(--second2-color), var(--third2-color), var(--forth2-color) , var(--fifth2-color) );
+  margin: 2px auto;
+}
+
+.gradient3 {
+  width: 250px;
+  height: 120px;
+  background-image: linear-gradient(90deg, var(--first3-color), var(--second3-color), var(--third3-color), var(--forth3-color) , var(--fifth3-color) );
+  margin: 0 auto;
+}
+
+.monitors{
+  padding-top: 225px
+}
+
+.input-div{
+  padding-top: 40px;
+}
+
+input {
+  text-align: center;
+}
+.monitor{
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+ @media screen and (max-width: 375px) {
+.main{
+  padding-top: 50px;
+}
+
+.monitors{
+  padding-top: 120px;
+}
+
+ }
+
+
+@media screen and (min-width: 768px) {
+  h3{
+    font-size: 32px;
+  }
+  .App{
+    height: 900px;
+    width: 600px;
+    border: solid black 3px;
+    border-radius: 5px;
+    display: block;
+    margin: 5% auto;
+  }
+.main{
+  margin-top: 0;
+}
+   .monitors{
+    padding-top: 280px
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .monitors{
+    padding-top: 340px
+  }
+}
+
+@media screen and (min-width: 1024px) {
+.App{
+  height: 700px;
+}
+.monitors{
+  padding-top: 180px
+}
+}
+
+@media screen and (min-width: 1280px) {
+  .App{
+    height: 650px;
+    margin-top: 2%;
+  }
+  .monitors{
+    padding-top: 150px
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .App{
+    height: 750px;
+    margin-top: 5%;
+  }
+  .monitors{
+    padding-top: 225px
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .App{
+    margin-top: 2%;
+  }
+  .monitors{
+    padding-top: 220px
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .App{
+height: 800px;
+margin-top: 5%;
+  }
+  .monitors{
+  padding-top: 280px;
+  }
+}
